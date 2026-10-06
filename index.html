@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#221326">
+<meta name="description" content="A little magic, a little mischief, and a whole lot of twenty-one. A birthday surprise for Mhikee.">
+<title>Mhikee · Twenty One</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23221326'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia' font-weight='bold' font-size='40' fill='%23f5dc85'%3E21%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#adventures">Skip to the birthday adventures</a>
+<header class="site-header">
+<a class="wordmark" href="#top" aria-label="Mhikee's twenty-first birthday home">m<span class="wordmark-star">✦</span><span class="wordmark-age">21</span></a>
+<nav aria-label="Main navigation"><a href="#adventures">Her favorite things</a><a href="#birthday-film">The birthday film</a></nav>
+<button class="tiny-button" id="celebrate" aria-label="Throw birthday confetti">Make a wish <span aria-hidden="true">✧</span></button>
+</header>
+<main id="top">
+<section class="hero" aria-labelledby="birthday-title">
+<div class="hero-copy">
+<div class="eyebrow"><span class="small-star" aria-hidden="true">✦</span> A once-in-a-lifetime kind of birthday</div>
+<h1 id="birthday-title">Happy<br>birthday,<br><em>Mhikee.</em><span class="title-star" aria-hidden="true">✧</span></h1>
+<p class="hero-description">A little magic. A little mischief.<br>A whole lot of <strong>twenty-one.</strong></p>
+<div class="hero-actions"><button class="button button-gold" data-open-video><span class="play-icon" aria-hidden="true">▶</span> Play your surprise</button><a class="text-link" href="#adventures">Let the adventure begin</a></div>
+<div class="hero-bottom"><span>STARRING YOU</span><span class="divider-line"></span><span>THE 21ST BIRTHDAY EDITION</span></div>
+</div>
+<div class="hero-art" aria-label="A birthday scrapbook of Mhikee's favorite things">
+<div class="orbital-type" aria-hidden="true">MAGIC · MOVIES · MEOWS · MEMORIES</div>
+<div class="age-number" aria-hidden="true">21</div>
+<figure class="scrap scrap-vegas"><img src="assets/vegas.jpg" alt="The Las Vegas Strip glowing at night" width="600" height="400"><figcaption>Next stop: Vegas, baby.</figcaption></figure>
+<figure class="scrap scrap-cat"><img src="assets/cat.jpg" alt="A very photogenic cat joining the birthday celebration" width="450" height="450"><figcaption>the birthday committee ♡</figcaption></figure>
+<div class="birthday-seal" aria-hidden="true"><span>OFFICIALLY</span><strong>21</strong><span>MAIN CHARACTER</span></div>
+<span class="art-spark spark-one" aria-hidden="true">✧</span><span class="art-spark spark-two" aria-hidden="true">✦</span>
+<span class="handwritten art-note">your best chapter yet</span>
+</div>
+</section>
+<div class="marquee" aria-hidden="true"><div>HOGWARTS AFTER HOURS <span>✦</span> CAT PERSON ENERGY <span>✦</span> THAT YELLOW DRESS <span>✦</span> VEGAS, BABY <span>✦</span> MHIKEE TURNS 21 <span>✦</span> HOGWARTS AFTER HOURS <span>✦</span> CAT PERSON ENERGY <span>✦</span></div></div>
+<section class="adventures section-wrap" id="adventures" aria-labelledby="adventure-title">
+<div class="section-heading"><div><div class="eyebrow dark-label">FOUR LITTLE WORLDS. ALL VERY YOU.</div><h2 id="adventure-title">Pick your kind of <em>magic.</em></h2></div><p>Explore your favorite things.<br>There’s a little surprise in every one.</p></div>
+<div class="theme-tabs" role="tablist" aria-label="Birthday worlds">
+<button role="tab" id="tab-magic" data-world="magic" aria-selected="true" aria-controls="world-panel" tabindex="0"><span class="tab-index">01</span><span>Hogwarts</span><span aria-hidden="true">✧</span></button>
+<button role="tab" id="tab-cats" data-world="cats" aria-selected="false" aria-controls="world-panel" tabindex="-1"><span class="tab-index">02</span><span>Cat club</span><span aria-hidden="true">♡</span></button>
+<button role="tab" id="tab-romcom" data-world="romcom" aria-selected="false" aria-controls="world-panel" tabindex="-1"><span class="tab-index">03</span><span>Rom-com</span><span aria-hidden="true">✿</span></button>
+<button role="tab" id="tab-vegas" data-world="vegas" aria-selected="false" aria-controls="world-panel" tabindex="-1"><span class="tab-index">04</span><span>Vegas</span><span aria-hidden="true">♠</span></button>
+</div>
+<div class="world-panel world-magic" id="world-panel" role="tabpanel" aria-labelledby="tab-magic" tabindex="0">
+<div class="world-photo"><img id="world-image" src="assets/hogwarts.jpg" alt="Hogwarts castle with its familiar towers and spires" width="800" height="900" loading="lazy"><div class="photo-shade"></div><span class="photo-label" id="photo-label">THE WIZARDING WORLD</span><div class="photo-quote"><span class="quote-mark" aria-hidden="true">“</span><blockquote id="world-quote">I solemnly swear that I am up to no good.</blockquote><span class="quote-credit" id="quote-credit">Harry Potter and the Prisoner of Azkaban</span></div></div>
+<div class="world-body">
+<section id="content-magic" class="world-content">
+<div class="eyebrow">YOUR LETTER HAS ARRIVED</div><h3>Accio,<br><em>birthday magic.</em></h3><p>Consider this your invitation to a year full of extraordinary things. First order of business: a birthday spell.</p>
+<div class="spell-options" aria-label="Choose a birthday spell"><button class="spell active" data-spell="lumos" aria-pressed="true">Lumos <span>For a bright year</span></button><button class="spell" data-spell="felix" aria-pressed="false">Felix Felicis <span>A little liquid luck</span></button><button class="spell" data-spell="accio" aria-pressed="false">Accio adventure <span>For what comes next</span></button></div>
+<button class="button button-dark" id="cast-spell">Cast your birthday spell <span aria-hidden="true">✧</span></button><div class="result-note" id="spell-result" role="status">Choose your magic. The next chapter is yours.</div>
+</section>
+<section id="content-cats" class="world-content" hidden>
+<div class="eyebrow">A VERY EXCLUSIVE CLUB</div><h3>Nine lives.<br><em>One birthday girl.</em></h3><p>The cat committee has reviewed your application for twenty-one. The verdict? Absolutely purrfect.</p>
+<div class="cat-note"><span aria-hidden="true">🐾</span><p id="cat-message" role="status">Your birthday cat is patiently waiting for attention.</p></div>
+<button class="button button-dark" id="pet-cat">Pet the birthday cat <span aria-hidden="true">♡</span></button><div class="result-note" id="pet-count" role="status">Purrs collected: 0</div>
+</section>
+<section id="content-romcom" class="world-content" hidden>
+<div class="eyebrow">THE LEADING LADY HAS ARRIVED</div><h3>How to turn 21<br><em>in 10 moments.</em></h3><p>A little Andie Anderson energy. A yellow-dress kind of entrance. Tap a number for your birthday scene.</p>
+<div class="moment-grid" aria-label="Ten birthday moments"><button data-moment="0" aria-label="Reveal birthday moment 1">01</button><button data-moment="1" aria-label="Reveal birthday moment 2">02</button><button data-moment="2" aria-label="Reveal birthday moment 3">03</button><button data-moment="3" aria-label="Reveal birthday moment 4">04</button><button data-moment="4" aria-label="Reveal birthday moment 5">05</button><button data-moment="5" aria-label="Reveal birthday moment 6">06</button><button data-moment="6" aria-label="Reveal birthday moment 7">07</button><button data-moment="7" aria-label="Reveal birthday moment 8">08</button><button data-moment="8" aria-label="Reveal birthday moment 9">09</button><button data-moment="9" aria-label="Reveal birthday moment 10">10</button></div>
+<div class="moment-card" id="moment-result" role="status"><strong>Your opening scene awaits.</strong><p>Pick any number. This story belongs to you.</p></div>
+<button id="watch-movie" class="movie-button text-link"><span aria-hidden="true">▶</span> Watch iconic movie moments</button>
+</section>
+<section id="content-vegas" class="world-content" hidden>
+<div class="eyebrow">NEXT STOP: LAS VEGAS</div><h3>The Strip is calling.<br><em>It’s your lucky year.</em></h3><p>Twenty-one looks good in neon. Before the Vegas weekend begins, give your birthday luck a spin.</p>
+<div class="slot-machine" aria-label="Birthday slot machine"><div class="slot-label">MHIKEE’S BIRTHDAY JACKPOT</div><div class="reels" aria-live="off"><span class="reel" id="reel-0">2</span><span class="reel" id="reel-1">1</span><span class="reel" id="reel-2">✦</span></div><div class="slot-rule">MAGIC · LOVE · A LITTLE LUCK</div></div>
+<button class="button button-dark" id="spin">Spin for birthday luck <span aria-hidden="true">♠</span></button><div class="result-note" id="spin-result" role="status">Every spin comes with a birthday wish.</div>
+</section>
+</div>
+</div>
+<div class="chapter-progress"><span id="chapter-text">CHAPTER 01 OF 04</span><div class="progress-dots" aria-label="Worlds visited"><span class="seen"></span><span></span><span></span><span></span></div><span id="worlds-status">A little mischief is encouraged.</span></div>
+</section>
+<section class="birthday-film" id="birthday-film" aria-labelledby="film-title">
+<div class="film-copy"><div class="eyebrow">MADE ESPECIALLY FOR YOU</div><h2 id="film-title">Some things are<br>better said <em>on film.</em></h2><p>A birthday message, a moment to keep,<br>and a reminder that you’re worth celebrating.</p><button class="button button-gold" data-open-video><span class="play-icon" aria-hidden="true">▶</span> Watch your birthday video</button><details class="audio-option"><summary>Listen to the message · 19:01</summary><audio controls preload="none" src="assets/birthday-message.m4a" aria-label="Mhikee’s birthday message, audio version"></audio></details></div>
+<button class="film-poster" data-open-video aria-label="Play Mhikee's birthday video"><span class="film-topline">A FILM FOR MHIKEE <span>♡</span></span><span class="film-main">the<br><em>birthday</em><br>cut.</span><span class="round-play" aria-hidden="true">▶</span><span class="film-bottomline">TWENTY-ONE & ALL THE LOVE</span></button>
+</section>
+<section class="closing section-wrap"><span class="eyebrow dark-label">A WISH FOR YOUR NEXT CHAPTER</span><h2>May it be full of magic,<br>good company, and stories<br><em>worth telling.</em></h2><p>Happy 21st, Mhikee. This one’s all yours.</p><button class="button button-outline" id="final-wish">Make a birthday wish <span aria-hidden="true">✦</span></button><p class="wish-status" id="wish-status" role="status"></p></section>
+</main>
+<footer><a class="wordmark footer-mark" href="#top" aria-label="Return to top">m<span class="wordmark-star">✦</span><span class="wordmark-age">21</span></a><span>MADE WITH LOVE, FOR MHIKEE.</span><button id="open-credits" class="credits-button">Photo & film credits</button></footer>
+<dialog id="video-dialog" aria-labelledby="video-title"><div class="dialog-heading"><div><span class="eyebrow">FOR THE BIRTHDAY GIRL</span><h2 id="video-title">A little birthday love.</h2></div><button class="close-dialog" aria-label="Close birthday video">×</button></div><div id="video-frame" class="video-frame"></div><details class="audio-option dialog-audio"><summary>Listen to the audio version instead · 19:01</summary><audio controls preload="none" src="assets/birthday-message.m4a" aria-label="Audio version of Mhikee’s birthday message"></audio></details><div class="video-footer"><span>Press play, get comfortable, and enjoy. ♡</span><a href="https://drive.google.com/file/d/1gTYVocpzZaIxy-0iGVz9ytfRcPipSwDe/view" target="_blank" rel="noopener noreferrer">Open video in Google Drive</a></div></dialog>
+<dialog id="movie-dialog" aria-labelledby="movie-title"><div class="dialog-heading"><div><span class="eyebrow">A LITTLE ANDIE & BEN</span><h2 id="movie-title">The iconic moments.</h2></div><button class="close-dialog" aria-label="Close movie clips">×</button></div><div id="movie-frame" class="video-frame"></div><div class="video-footer"><span>How to Lose a Guy in 10 Days · Paramount Movies</span><a href="https://www.youtube.com/watch?v=MaNxhaVwox0" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></div></dialog>
+<dialog id="credits-dialog" aria-labelledby="credits-title"><div class="dialog-heading"><h2 id="credits-title">The credits.</h2><button class="close-dialog" aria-label="Close credits">×</button></div><div class="credits-content" id="credits-content"><ul>
+<li>Hogwarts photograph by <a href="https://commons.wikimedia.org/wiki/File:Wizarding_World_of_Harry_Potter_Castle.jpg" target="_blank" rel="noopener noreferrer">Carlos Cruz / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>.</li>
+<li>Cat photograph by <a href="https://commons.wikimedia.org/wiki/File:Cat_sitting_at_garden.jpg" target="_blank" rel="noopener noreferrer">Ondřej Geršl / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>.</li>
+<li>Las Vegas photograph by <a href="https://commons.wikimedia.org/wiki/File:Las_Vegas_Strip_at_night,_2012.jpg" target="_blank" rel="noopener noreferrer">Clément Bardot / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>.</li>
+<li><a href="https://www.paramountpictures.com/movies/how-to-lose-a-guy-in-10-days" target="_blank" rel="noopener noreferrer">How to Lose a Guy in 10 Days</a> poster and film excerpts © Paramount Pictures. Movie clips are embedded from Paramount Movies’ official YouTube upload.</li>
+<li>The Marauder’s Map quotation: <a href="https://www.harrypotter.com/writing-by-jk-rowling/the-marauders-map" target="_blank" rel="noopener noreferrer">HarryPotter.com</a>. Harry Potter characters and elements © J.K. Rowling / Warner Bros.</li>
+</ul><p>Photographs are cropped in the page layout. Birthday wishes, cat messages, and the ten birthday moments are original writing inspired by Mhikee’s favorite things.</p></div></dialog>
+<div class="confetti-layer" id="confetti" aria-hidden="true"></div>
+<div class="toast" id="toast" role="status"></div>
+</body>
+</html>
